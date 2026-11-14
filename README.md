@@ -7,7 +7,7 @@
 
 - Version: **1.0.0**
 - ZIP: `NaverCafeManager-1.0.0.zip`
-- SHA256: `8b19555ecbc37ccd73475ddcb867fd9b0455ac89fe7f803d53e3f97145f9877b`
+- SHA256: `65b829823a9add6029b6b6c618e98b5d60da7666694e7e0e1b6647d21aca297d`
 
 ## ?ㅼ튂
 
@@ -29,8 +29,8 @@
   "channel": "stable",
   "asset": {
     "url": "https://github.com/namtsby/navercafe-auto-releases-07/releases/download/v1.0.0/NaverCafeManager-1.0.0.zip",
-    "size": 131726832,
-    "sha256": "8b19555ecbc37ccd73475ddcb867fd9b0455ac89fe7f803d53e3f97145f9877b"
+    "size": 141283222,
+    "sha256": "65b829823a9add6029b6b6c618e98b5d60da7666694e7e0e1b6647d21aca297d"
   }
 }
 ```
@@ -49,5 +49,6 @@
 - ?ㅽ뻾 ?뚯씪/zip??GitHub ?좏겙?대굹 API ?ㅻ? ?ы븿?섏? ?딆뒿?덈떎.
 - 怨꾩젙 鍮꾨?踰덊샇??寃곌낵/濡쒓렇??湲곕줉?섏? ?딆뒿?덈떎.
 - 蹂??꾨줈洹몃옩? 蹂몄씤 ?뚯쑀/?댁쁺 沅뚰븳???덈뒗 怨꾩젙怨?移댄럹?먮쭔 ?ъ슜?댁빞 ?⑸땲??
+
 
 
