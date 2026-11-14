@@ -1,26 +1,25 @@
-# 네이버 카페 통합 자동화 — 배포 저장소
+﻿# ?ㅼ씠踰?移댄럹 ?듯빀 ?먮룞????諛고룷 ??μ냼
 
-이 저장소는 **설치용 zip·sha256·update.json만** 보관하는 공개 릴리스 저장소입니다.  
-소스 코드는 별도 비공개 저장소에서 관리합니다.
+????μ냼??**?ㅼ튂??zip쨌sha256쨌update.json留?* 蹂닿??섎뒗 怨듦컻 由대━????μ냼?낅땲??  
+?뚯뒪 肄붾뱶??蹂꾨룄 鍮꾧났媛???μ냼?먯꽌 愿由ы빀?덈떎.
 
-## 최신 버전
+## 理쒖떊 踰꾩쟾
 
 - Version: **1.0.0**
 - ZIP: `NaverCafeManager-1.0.0.zip`
-- SHA256: `944c060ac65ca4f534349b77763567a5208a5ff8a1c59cf96155fc6d833bb822`
+- SHA256: `ab46cdf73741202460fa8c3e13cd9284d2a9e0dd64e878d57e3b934889b6ea67`
 
-## 설치
+## ?ㅼ튂
 
-1. 최신 Release의 `NaverCafeManager-1.0.0.zip` 다운로드
-2. 압축 해제
-3. `install.bat` 실행
-4. 바탕화면 `네이버 카페 통합 자동화` 실행
-5. 설치 위치: `%LOCALAPPDATA%\NaverCafeManager\app`
-6. 관리자 권한 불필요
+1. 理쒖떊 Release??`NaverCafeManager-1.0.0.zip` ?ㅼ슫濡쒕뱶
+2. ?뺤텞 ?댁젣
+3. `install.bat` ?ㅽ뻾
+4. 諛뷀깢?붾㈃ `?ㅼ씠踰?移댄럹 ?듯빀 ?먮룞?? ?ㅽ뻾
+5. ?ㅼ튂 ?꾩튂: `%LOCALAPPDATA%\NaverCafeManager\app`
+6. 愿由ъ옄 沅뚰븳 遺덊븘??
+## ?낅뜲?댄듃 援ъ“
 
-## 업데이트 구조
-
-`update.json`에 최신 버전, zip URL, 크기, sha256, 필수 여부, 채널을 기록합니다.
+`update.json`??理쒖떊 踰꾩쟾, zip URL, ?ш린, sha256, ?꾩닔 ?щ?, 梨꾨꼸??湲곕줉?⑸땲??
 
 ```json
 {
@@ -30,25 +29,24 @@
   "channel": "stable",
   "asset": {
     "url": "https://github.com/namtsby/navercafe-auto-releases-07/releases/download/v1.0.0/NaverCafeManager-1.0.0.zip",
-    "size": 131728029,
-    "sha256": "944c060ac65ca4f534349b77763567a5208a5ff8a1c59cf96155fc6d833bb822"
+    "size": 131728246,
+    "sha256": "ab46cdf73741202460fa8c3e13cd9284d2a9e0dd64e878d57e3b934889b6ea67"
   }
 }
 ```
 
-앱은 시작 시 `update.json`을 조회하고, 새 버전이면 zip을 다운로드해 sha256 검증 후
-`updates/staging`에 준비합니다. [지금 적용]을 선택하면 앱 종료 후 폴더를 교체하고
-새 버전을 실행합니다. 현재 릴리스와 앱이 모두 1.0.0이므로 실제 업데이트 프롬프트는
-다음 버전부터 발생합니다.
+?깆? ?쒖옉 ??`update.json`??議고쉶?섍퀬, ??踰꾩쟾?대㈃ **蹂꾨룄 ?대┃ ?놁씠 ?먮룞?쇰줈 zip???ㅼ슫濡쒕뱶**??sha256 寃利???`updates/staging`??以鍮꾪빀?덈떎. [吏湲??곸슜]???좏깮?섎㈃ ??醫낅즺 ???대뜑瑜?援먯껜?섍퀬
+??踰꾩쟾???ㅽ뻾?⑸땲?? `update.auto_apply`瑜?耳쒕㈃ ?곸슜源뚯? ?먮룞?낅땲??
+?꾩옱 由대━?ㅼ? ?깆씠 紐⑤몢 1.0.0?대?濡??ㅼ젣 ?낅뜲?댄듃 ?꾨＼?꾪듃???ㅼ쓬 踰꾩쟾遺??諛쒖깮?⑸땲??
 
-## 릴리스 자산
+## 由대━???먯궛
 
-- `NaverCafeManager-1.0.0.zip` — 설치용 onedir 패키지
-- `NaverCafeManager-1.0.0.zip.sha256` — 무결성 확인
-- `update.json` — 업데이트 메타데이터
+- `NaverCafeManager-1.0.0.zip` ???ㅼ튂??onedir ?⑦궎吏
+- `NaverCafeManager-1.0.0.zip.sha256` ??臾닿껐???뺤씤
+- `update.json` ???낅뜲?댄듃 硫뷀??곗씠??
+## 蹂댁븞
 
-## 보안
+- ?ㅽ뻾 ?뚯씪/zip??GitHub ?좏겙?대굹 API ?ㅻ? ?ы븿?섏? ?딆뒿?덈떎.
+- 怨꾩젙 鍮꾨?踰덊샇??寃곌낵/濡쒓렇??湲곕줉?섏? ?딆뒿?덈떎.
+- 蹂??꾨줈洹몃옩? 蹂몄씤 ?뚯쑀/?댁쁺 沅뚰븳???덈뒗 怨꾩젙怨?移댄럹?먮쭔 ?ъ슜?댁빞 ?⑸땲??
 
-- 실행 파일/zip에 GitHub 토큰이나 API 키를 포함하지 않습니다.
-- 계정 비밀번호는 결과/로그에 기록하지 않습니다.
-- 본 프로그램은 본인 소유/운영 권한이 있는 계정과 카페에만 사용해야 합니다.
