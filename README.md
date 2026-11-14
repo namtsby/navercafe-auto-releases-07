@@ -7,7 +7,7 @@
 
 - Version: **1.0.0**
 - ZIP: `NaverCafeManager-1.0.0.zip`
-- SHA256: `904555f6da0c8c9b00fbc564f7194876446e46f0835c4b34244dbb9ebcc37c16`
+- SHA256: `944c060ac65ca4f534349b77763567a5208a5ff8a1c59cf96155fc6d833bb822`
 
 ## 설치
 
@@ -30,15 +30,16 @@
   "channel": "stable",
   "asset": {
     "url": "https://github.com/namtsby/navercafe-auto-releases-07/releases/download/v1.0.0/NaverCafeManager-1.0.0.zip",
-    "size": 131716189,
-    "sha256": "904555f6da0c8c9b00fbc564f7194876446e46f0835c4b34244dbb9ebcc37c16"
+    "size": 131728029,
+    "sha256": "944c060ac65ca4f534349b77763567a5208a5ff8a1c59cf96155fc6d833bb822"
   }
 }
 ```
 
-> 현재 v1.0.0은 설치 zip을 내려받아 `install.bat`으로 교체하는 방식입니다.  
-> 앱 내부 자동 다운로드/폴더 교체는 별도 업데이트 클라이언트가 필요합니다.  
-> 자동 업데이트 클라이언트가 추가되면 이 `update.json` 계약을 그대로 사용합니다.
+앱은 시작 시 `update.json`을 조회하고, 새 버전이면 zip을 다운로드해 sha256 검증 후
+`updates/staging`에 준비합니다. [지금 적용]을 선택하면 앱 종료 후 폴더를 교체하고
+새 버전을 실행합니다. 현재 릴리스와 앱이 모두 1.0.0이므로 실제 업데이트 프롬프트는
+다음 버전부터 발생합니다.
 
 ## 릴리스 자산
 
